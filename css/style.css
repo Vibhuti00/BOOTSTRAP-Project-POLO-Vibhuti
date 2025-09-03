@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-img {
+    height: 80vh;
+}
+
+.carousel-font {
+    font-size: 28px;
+    font-style: italic;
+}
+
+.carousel-span {
+    color: gray;
+    font-style: italic;
+}
+
+.section-image {
+    height: 50vh;
+}
+
+.carousel-section {
+    margin-left: 100px;
+    padding-top: 100px;
+}
