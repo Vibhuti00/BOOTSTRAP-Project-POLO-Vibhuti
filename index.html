@@ -5,33 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Polo Creative</title>
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
-
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 
 <body>
 
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top ">
             <div class="container">
                 <a class="navbar-brand fw-bold fs-1 text-white" href="#">POLO</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav me-3 mb-2 mb-lg-0 fs-6">
-                        <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">LAYOUT</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">FEATURES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">ELEMENTS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">PAGES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="javascript:void(0)">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Layout</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Elements</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Pages</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Shop</a></li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded-pill">CONTACT US</a>
+                    <a href="#" class="btn btn-primary rounded-pill">Contact Us</a>
                 </div>
             </div>
         </nav>
@@ -40,79 +40,82 @@
 
     <!-- main start -->
     <main>
+        <!-- hero section start -->
+        <section>
+            <div id="heroCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/100.jpg" class="d-block w-100" class="hero-img" alt="">
+                        <!-- style="height: 80vh;" -->
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 start-0 end-0">
+                            <h1 class="display-3 fw-bold">Polo Creative</h1>
+                            <p class="fs-5">Give your online presence, your company deserves it with creative template from POLO</p>
+                            <a href="javascript:void(0)" class="btn btn-primary rounded-pill">View Our Work</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/104.jpg" class="d-block w-100" class="hero-img" alt="">
+                        <!-- style="height: 80vh;" -->
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 start-0 end-0">
+                            <h1 class="display-3 fw-bold">Polo Creative</h1>
+                            <p class="fs-5">Give your online presence, your company deserves it with creative template from POLO</p>
+                            <a href="javascript:void(0)" class="btn btn-primary rounded-pill">View Our Work</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                </div>
+            </div>
+        </section>
+        <!-- hero section end -->
 
         <!-- section-1 start -->
-        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/100.jpg" class="d-block w-100 " style="height:80vh" alt>
-                    <!-- class="hero-img" -->
-                    <div class="bg-dark opacity-25 position-absolute"></div>
-                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 start-0 end-0">
-                        <h1 class="display-3 fw-bold">Polo Creative</h1>
-                        <p class="lead">Give your online presence, your company deserves it with creative template from POLO</p>
-                        <a href="#" class="btn btn-primary rounded-pill"><i class="fa-solid fa-caret-right m-1"></i> View Our Work</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/104.jpg" class="d-block w-100" style="height:80vh" alt>
-                    <!-- class="hero-img" -->
-                    <div class="bg-dark opacity-0 position-absolute"></div>
-                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 start-0 end-0">
-                        <h1 class="display-3 fw-bold">Polo Creative</h1>
-                        <p class="lead">Give your online presence, your company deserves it with creative template from POLO</p>
-                        <a href="#" class="btn btn-primary rounded-pill"><i class="fa-solid fa-caret-right m-1"></i>View Our Work</a>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
-            </div>
-        </div>
-        <!-- section-1 end -->
-
-        <!-- section-2 start -->
-        <div class="about m-5">
+        <section class="about py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5 class="p-3">Who we are</h5>
-                        <p><span class="py-2 px-3 text-bg-primary rounded float-start me-2">B</span>Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare. Fusce id mi diam, non ornare
+                        <h5 class="fs-4">Who we are</h5>
+                        <p class="text-secondary fs-5 pt-3"><span class="px-3 py-2 rounded text-bg-primary me-2 float-start">B</span>Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare. Fusce id mi diam, non ornare
                             orci. Pellentesque ipsum erat, facilisis ut venenatis eu.</p>
-                        <p>Ella varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!, facilisis ut venenatis, sodales vel dolor. The most happiest time of the day!.</p>
+                        <p class="text-secondary fs-5 pt-3">Ella varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!, facilisis ut venenatis, sodales vel dolor. The most happiest time of the day!.</p>
                     </div>
                     <div class="col-md-6">
-                        <div class="carousel slide" id="#about-carousel" style="margin-left: 100px; padding-top: 100px;">
-                            <!-- class="carousel-section" -->
-                            <div class="carousel-indicators top-100 rounded-circle">
-                                <button class="active text-bg-secondary" type="button" data-bs-target="#about-carousel" data-bs-slide-to="0"></button>
-                                <button class="text-bg-secondary" type="button" data-bs-target="#about-carousel" data-bs-slide-to="1"></button>
+                        <div class="carousel slide" id="#about-carousel" class="section1-div">
+                            <!-- style="margin-left: 100px; padding-top: 100px;" -->
+                            <div class="carousel-indicators top-100 ">
+                                <button class="active text-bg-secondary rounded-circle" type="button" data-bs-target="#about-carousel" data-bs-slide-to="0" class="about-btn"> 
+                                    </button>
+                                <!-- style="width: 10px; height: 10px;" -->
+                                <button class="text-bg-secondary rounded-circle" type="button" data-bs-target="#about-carousel" data-bs-slide-to="1" class="about-btn">
+                                    </button>
+                                <!-- style="width: 10px; height: 10px;" -->
                             </div>
-
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="carousel-content text-center">
-                                        <p class="text-secondary" style="font-size: 28px; font-style: italic;">The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
-                                        <!-- class="carousel-font" -->
-                                        <h6>John smith</h6>
-                                        <span style="font-style: italic; color: gray;">Google inc.</span>
-                                        <!-- class="carousel-span" -->
+                                        <p class="text-secondary" class="section1-font">The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
+                                        <!-- style="font-size: 28px; font-style: italic;" -->
+                                        <h6>john smith</h6>
+                                        <span class="section1-span">Google inc.</span>
+                                        <!-- style="font-style: italic; color: gray;" -->
                                     </div>
+
                                 </div>
                                 <div class="carousel-item">
                                     <div class="carousel-content text-center">
-                                        <p class="text-secondary" style="font-size: 28px; font-style: italic;">Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                                        <!-- class="carousel-font" -->
-                                        <span>Alan Monre</span>
-                                        <span style="font-style: italic; color: gray;">Envato</span>
-                                        <!-- class="carousel-span" -->
+                                        <p class="text-secondary" class="section1-font">The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
+                                        <!-- style="font-size: 28px; font-style: italic;" -->
+                                        <h6>John Smith</h6>
+                                        <span class="sectionl-span">Google inc.</span>
+                                        <!-- style="font-style: italic; color: gray;" -->
                                     </div>
                                 </div>
                             </div>
@@ -120,42 +123,76 @@
                     </div>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
+        <!-- section-1 end -->
+
+        <!-- section-2 start -->
+        <section class="serviceone">
+            <!-- style="background: url('./img/7.jpg') center/cover no-repeat; height: 50vh;" -->
+            <div class="text-white pt-5">
+                <div class="container">
+                    <h1 class="fs-3">Join by April 27 and Win $200 in Programs and Services</h1>
+                    <p class="">This is a simple hero unit, a simple call-to-action-style component for calling extra attention to featured content.</p>
+                    <a href="javascript:void(0)" class="btn btn-outline-light mt-3">CALL US NOW!</a>
+                </div>
+            </div>
+        </section>
         <!-- section-2 end -->
 
         <!-- section-3 start -->
-        <div id="sectionCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/7.jpg" class="d-block w-100 " style="height:50vh" alt>
-                    <!-- class="section-image" -->
-                    <div class="bg-dark opacity-25 position-absolute"></div>
-                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center top-0 start-0 end-0">
-                        <h1>Join by April 27 and Win $200 in Programs and Services</h1>
-                        <p class="lead">This is a simple hero unit, a simple call-to-action-style component for calling extra attention to featured content.</p>
-                        <button type="button" class="btn btn-outline-light">CALL US NOW!</button>
-                    </div>
+        <section class="portfolio mt-5">
+            <div class="container">
+                <div>
+                    <h1>Our work</h1>
+                    <p>Nulla varius consequat magna, id molestie ipsum volutpat quis. A true <br> story, that never been told!. Fusce id mi diam, non ornare.</p>
                 </div>
             </div>
-        </div>
+        </section>
         <!-- section-3 end -->
 
         <!-- section-4 start -->
-        <div class="container p-5">
-            <h1>Our work</h1>
-            <p>Nulla varius consequat magna, id molestie ipsum volutpat quis. A true story, that never been told!. Fusce id mi diam, non ornare.</p>
-        </div>
+        <section class="ourmamber text-white text-center d-flex align-items-center mt-5">
+            <!-- style="background: url('./img/5.jpg') center/cover no-repeat; height: 50vh;" -->
+            <div class="container">
+                <div class="row overmamber-style">
+                    <div class="col-md-3 mb-4">
+                        <h2 class="fw-bold fs-1">12416</h2>
+                        <hr class="bg-light mx-auto mt-4">
+                        <!-- style="width:25px; height:2px; opacity:1;" -->
+                        <p class="text-uppercase">Lines of Code</p>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h2 class="fw-bold fs-1">365</h2>
+                        <hr class="bg-light mx-auto mt-4">
+                        <!-- style="width:25px; height:2px; opacity:1;" -->
+                        <p class="text-uppercase">Cups of Coffee</p>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h2 class="fw-bold fs-1">114</h2>
+                        <hr class="bg-light mx-auto mt-4">
+                        <!-- style="width:25px; height:2px; opacity:1;" -->
+                        <p class="text-uppercase">Finished Projects</p>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <h2 class="fw-bold fs-1">14825</h2>
+                        <hr class="bg-light mx-auto mt-4">
+                        <!-- style="width:25px; height:2px; opacity:1;" -->
+                        <p class="text-uppercase">Satisfied Clients</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- section-4 end -->
 
         <!-- section-5 start -->
-        <div id="sectionCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/5.jpg" class="d-block w-100" style="height:50vh" alt>
-                    <!-- class="section-image" -->
-                </div>
+        <section class="servicetwo py-5 text-center mt-5">
+            <div class="container">
+                <h1 class="fs-1 mb-3">Why we have the best <br>services around!</h1>
+                <hr class="mx-auto bg-primary mt-4" style="width: 80px; height: 2px; opacity: 1;">
+                <p class="mt-4 fs-5" style="color: gray;"> Nulla varius consequat magna, id molestie ipsum volutpat quis.A true story, that <br>never been told!. Fusce id mi diam, non ornare.</p>
             </div>
-        </div>
+        </section>
         <!-- section-5 end -->
 
     </main>
@@ -165,8 +202,8 @@
     <footer></footer>
     <!-- footer end -->
 
-    <script src="./js/bootstrap.bundle.min.js"></script>
 
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

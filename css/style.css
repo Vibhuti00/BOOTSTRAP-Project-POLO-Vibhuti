@@ -8,21 +8,56 @@
     height: 80vh;
 }
 
-.carousel-font {
+.section1-div {
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.about-btn {
+    width: 10px;
+    height: 10px;
+}
+
+.section1-font {
     font-size: 28px;
     font-style: italic;
 }
 
-.carousel-span {
+.sectionl-span {
     color: gray;
     font-style: italic;
-}
-
-.section-image {
-    height: 50vh;
 }
 
 .carousel-section {
     margin-left: 100px;
     padding-top: 100px;
 }
+
+.serviceone {
+    background-image: url('..//img/7.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ourmamber {
+    background-image: url('..//img/5.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overmamber-style {
+    width: 25px;
+    height: 2px;
+    opacity: 1;
+}
+
+
+/* servicetwo-style {
+    width: 80px;
+    height: 2px;
+    opacity: 1;
+} */
