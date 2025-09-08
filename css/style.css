@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.hero-img {
+
+/* .heroimg {
     height: 80vh;
-}
+} */
 
 .section1-div {
     margin-left: 100px;
@@ -23,7 +24,7 @@
     font-style: italic;
 }
 
-.sectionl-span {
+.section-span {
     color: gray;
     font-style: italic;
 }
@@ -34,26 +35,181 @@
 }
 
 .serviceone {
-    background-image: url('..//img/7.jpg');
-    height: 50vh;
+    background-image: url('../img/7.jpg');
+    height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .ourmamber {
-    background-image: url('..//img/5.jpg');
+    background-image: url('../img/5.jpg');
     height: 50vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.overmamber-style {
+.feature-box {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.feature-icon {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    color: #090909;
+    margin: 0 auto 20px;
+    font-size: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-box h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    color: #6c757d;
+    font-size: 15px;
+}
+
+.progress-bar {
+    background-color: #2a44ff;
+}
+
+.blog-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.blog-item img {
+    width: 90px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.contact-info h5 {
+    font-weight: 600;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background: #2a44ff;
+    color: #fff;
+    border-color: #2a44ff;
+}
+
+.btn-custom {
+    background: #fff;
+    border: 1px solid #ddd;
+    font-weight: 600;
+}
+
+.btn-custom:hover {
+    background: #2a44ff;
+    color: #fff;
+    border-color: #2a44ff;
+}
+
+.information {
+    background-image: url('../img/background-4.png');
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.newsletter {
+    background-color: #2147ff;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.newsletter .input-group {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.newsletter .form-control {
+    border-radius: 0;
+}
+
+.newsletter .btn {
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.newsletter small {
+    display: block;
+    margin-top: 10px;
+    color: #ddd;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    font-size: 15px;
+    color: #555;
+}
+
+.footer h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.footer a {
+    color: #555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #2147ff;
+}
+
+.footer .btn-custom {
+    background: #2147ff;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.footer .btn-custom:hover {
+    background: #0f2fd1;
+}
+
+
+/* .ourmamber-style {
     width: 25px;
     height: 2px;
     opacity: 1;
-}
+} */
 
 
 /* servicetwo-style {
